@@ -15,8 +15,11 @@ to create any files into /usr/local/bin folder, then create a
 
 > PATH=/home/$USER/bin$PATH
 
+
 Using 'gnomever' with conky.
+
 ![Conky Header](conky_header.png)
+
 
 Add this line to conky config file:
 
