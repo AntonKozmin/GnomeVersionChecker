@@ -16,9 +16,12 @@ to create any files into /usr/local/bin folder, then create a
 > PATH=/home/$USER/bin$PATH
 
 Using 'gnomever' with conky.
+![Conky Header](conky_header.png)
 
 Add this line to conky config file:
 
 > ${color lime}Gnome: ${execi 1000 gnomever}
 
 'gnomever' has checked on Fedora 30 and Debian 9 x86_64 Linux.
+
+
