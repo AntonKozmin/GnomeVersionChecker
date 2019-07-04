@@ -11,20 +11,14 @@ or any other folders listed in $PATH.
 
 If a /home/$USER/bin/ folder doesn't exist and it's impossible for you 
 to create any files into /usr/local/bin folder, then create a
-/home/$USER/bin/ folder and add it to $PATH variable of /home/$USER/.bashrc file.
-
+/home/$USER/bin/ folder and add it to $PATH variable of /home/$USER/.bashrc file:
 > PATH=/home/$USER/bin$PATH
 
-
-Using 'gnomever' with conky.
+**Using 'gnomever' with conky.**
 
 ![Conky Header](conky_header.png)
 
-
-Add this line to conky config file:
-
+Add this line to the "text" section of the conky config file:
 > ${color lime}Gnome: ${execi 1000 gnomever}
 
 'gnomever' has checked on Fedora 30 and Debian 9 x86_64 Linux.
-
-
