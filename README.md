@@ -9,7 +9,7 @@ or any linux system for shell script.
 Move a binary/script file into /home/$USER/bin/, /usr/local/bin/ 
 or any other folders listed in $PATH.
 
-If a /home/$USER/bin/ folder doesn't exist and it isn't possible for you 
+If a /home/$USER/bin/ folder doesn't exist and it's impossible for you 
 to create any files into /usr/local/bin folder, then create a
 /home/$USER/bin/ folder and add it to $PATH variable of /home/$USER/.bashrc file.
 
