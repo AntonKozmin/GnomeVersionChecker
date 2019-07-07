@@ -10,7 +10,7 @@ sed -i '/^$/d;s/[[:blank:]]//g' $tmpFILE
 sed -i 's/\//./g' $tmpFILE
 sed -r 's/.{1}$//' $tmpFILE
 else
-echo "?.??.?"
+echo "?.?.?"
 fi
 exit 0
 
