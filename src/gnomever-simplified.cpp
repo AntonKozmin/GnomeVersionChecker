@@ -1,5 +1,5 @@
 //============================================================================
-// A simple version but much too big at the finish 
+// A simple version but too much big after compilation
 //============================================================================
 
 #include <iostream>
